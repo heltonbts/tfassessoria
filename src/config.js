@@ -4,7 +4,7 @@
 
 // WhatsApp no formato internacional, somente números: 55 + DDD + número.
 // Ex.: (11) 99999-9999  ->  "5511999999999"
-export const WHATSAPP_NUMBER = '5500000000000' // TODO: trocar pelo número real
+export const WHATSAPP_NUMBER = '558893203059'
 
 // Mensagem pré-preenchida ao abrir o WhatsApp.
 export const WHATSAPP_MESSAGE =
@@ -14,7 +14,7 @@ export const BUSINESS = {
   name: 'TF Assessoria & Finanças',
   shortName: 'TF Assessoria',
   email: 'contato@tfassessoria.com.br', // TODO: trocar pelo e-mail real
-  phoneLabel: '(00) 00000-0000', // TODO: trocar pelo telefone real
+  phoneLabel: '(88) 9320-3059',
   city: 'Brasil', // TODO: cidade/região de atuação
   instagram: 'https://www.instagram.com/tfassessoriaefinancas/',
 }
