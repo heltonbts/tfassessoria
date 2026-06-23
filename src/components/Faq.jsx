@@ -18,7 +18,7 @@ export default function Faq() {
               Perguntas <span className="gold-text">comuns</span>
             </h2>
             <p className="lead">
-              Não encontrou o que procurava? Fale com a gente no WhatsApp — a
+              Não encontrou o que procurava? Fale com a gente no WhatsApp. A
               resposta é rápida e sem compromisso.
             </p>
             <a

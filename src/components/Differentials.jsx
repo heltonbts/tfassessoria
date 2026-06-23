@@ -7,14 +7,13 @@ export default function Differentials() {
     <section className="section" id="diferenciais">
       <div className="container">
         <Reveal className="section-head">
-          <span className="eyebrow">Por que a TF</span>
+          <span className="eyebrow">Por que a TF?</span>
           <h2 className="h-sec">
-            Mais que crédito: <span className="gold-text">confiança</span>
+            TF Assessoria &amp; Finanças, <span className="gold-text">melhor que banco</span>
           </h2>
           <p className="lead">
-            Somos correspondente bancário e trabalhamos com as principais
-            instituições do país para entregar a melhor condição com total
-            transparência.
+            Parcerias com as principais instituições financeiras do país para
+            oferecer soluções sob medida, com clareza e confiança em cada etapa.
           </p>
         </Reveal>
 

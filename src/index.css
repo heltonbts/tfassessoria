@@ -205,6 +205,29 @@ h3 {
   transform: translateX(120%);
 }
 
+.btn-green {
+  position: relative;
+  color: #ffffff;
+  background: linear-gradient(135deg, #25d366, #1aa251);
+  box-shadow: 0 22px 60px -22px rgba(37, 211, 102, 0.6);
+  overflow: hidden;
+}
+.btn-green::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.45) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.7s ease;
+}
+.btn-green:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 26px 70px -20px rgba(37, 211, 102, 0.65);
+}
+.btn-green:hover::after {
+  transform: translateX(120%);
+}
+
 .btn-ghost {
   color: var(--ink);
   background: rgba(255, 255, 255, 0.02);
@@ -647,6 +670,25 @@ h3 {
   font-size: 0.92rem;
 }
 
+/* ---------- Prova social (Instagram) ---------- */
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 54px;
+  align-items: start;
+}
+.ig-grid .instagram-media {
+  margin: 0 !important;
+  min-width: 0 !important;
+  width: 100% !important;
+}
+.ig-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -919,6 +961,9 @@ h3 {
   .diff-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .ig-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .steps {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -942,6 +987,7 @@ h3 {
     padding: 130px 0 70px;
   }
   .diff-grid,
+  .ig-grid,
   .stats,
   .steps,
   .footer-grid {

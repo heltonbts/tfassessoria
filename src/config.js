@@ -16,7 +16,7 @@ export const BUSINESS = {
   email: 'contato@tfassessoria.com.br', // TODO: trocar pelo e-mail real
   phoneLabel: '(00) 00000-0000', // TODO: trocar pelo telefone real
   city: 'Brasil', // TODO: cidade/região de atuação
-  instagram: 'https://instagram.com/', // TODO
+  instagram: 'https://www.instagram.com/tfassessoriaefinancas/',
 }
 
 // Monta o link do WhatsApp com mensagem opcional para um serviço específico.

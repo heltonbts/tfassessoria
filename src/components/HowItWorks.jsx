@@ -14,7 +14,7 @@ export default function HowItWorks() {
             Simples do <span className="gold-text">começo ao fim</span>
           </h2>
           <p className="lead" style={{ margin: '0 auto' }}>
-            Em quatro passos você sai da dúvida para o dinheiro na conta — sem
+            Em quatro passos você sai da dúvida para o dinheiro na conta, sem
             sair de casa.
           </p>
         </Reveal>

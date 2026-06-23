@@ -23,14 +23,15 @@ export default function Hero() {
             </motion.div>
 
             <motion.h1 variants={item}>
-              O <span className="ital gold-text">crédito certo</span> para
-              realizar o que você precisa.
+              Soluções inteligentes de{' '}
+              <span className="ital gold-text">crédito</span> para quem quer
+              realizar mais agora.
             </motion.h1>
 
             <motion.p className="lead" variants={item}>
-              Empréstimo consignado INSS, garantia de veículo, financiamentos e
-              seguro veicular — com as melhores taxas do mercado e um consultor
-              de verdade do seu lado, do início ao fim.
+              Empréstimo Consignado INSS, Crédito com Garantia de Veículo,
+              Financiamentos e Seguros e Proteção Auto. As melhores taxas do
+              mercado e um consultor de verdade do seu lado, do início ao fim.
             </motion.p>
 
             <motion.div className="hero-actions" variants={item}>
@@ -38,7 +39,7 @@ export default function Hero() {
                 href={whatsappLink()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-gold"
+                className="btn btn-green"
               >
                 <IconWhatsApp /> Simular agora no WhatsApp
               </a>

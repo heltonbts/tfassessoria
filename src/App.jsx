@@ -2,6 +2,7 @@ import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import Services from './components/Services.jsx'
 import Differentials from './components/Differentials.jsx'
+import SocialProof from './components/SocialProof.jsx'
 import HowItWorks from './components/HowItWorks.jsx'
 import Faq from './components/Faq.jsx'
 import CtaBand from './components/CtaBand.jsx'
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <Services />
         <Differentials />
+        <SocialProof />
         <HowItWorks />
         <Faq />
         <CtaBand />

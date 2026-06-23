@@ -11,7 +11,7 @@ export default function Services() {
         <Reveal className="section-head">
           <span className="eyebrow">Nossas soluções</span>
           <h2 className="h-sec">
-            Soluções financeiras feitas <span className="gold-text">para você</span>
+            Soluções financeiras exclusivas <span className="gold-text">para você</span>
           </h2>
           <p className="lead">
             Quatro caminhos para você conquistar mais, com segurança e as

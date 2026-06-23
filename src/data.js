@@ -50,8 +50,8 @@ export const SERVICES = [
     id: 'seguro-veicular',
     Icon: IconSeguro,
     tag: 'Proteção completa',
-    title: 'Seguro Veicular',
-    desc: 'Seu carro protegido contra roubo, furto, colisão e terceiros, com assistência 24h. Cotação personalizada nas principais seguradoras do país.',
+    title: 'Proteção Auto',
+    desc: 'Seu carro protegido contra roubo, furto, colisão e terceiros, com assistência 24h. Cotação personalizada e abrangência em todo o país.',
     bullets: [
       'Cobertura completa e assistência 24h',
       'Carro reserva e guincho',
@@ -111,6 +111,12 @@ export const STATS = [
   { value: 'R$ 80mi', label: 'em crédito liberado' },
   { value: '5,0 ★', label: 'avaliação no Google' },
   { value: '24h', label: 'para aprovação' },
+]
+
+export const SOCIAL_POSTS = [
+  'https://www.instagram.com/p/DNoTMX2OO48/',
+  'https://www.instagram.com/p/DNWRs5fuRwC/',
+  'https://www.instagram.com/p/DN6UzePu4zE/',
 ]
 
 export const FAQ = [
