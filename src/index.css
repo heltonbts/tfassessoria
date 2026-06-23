@@ -119,13 +119,6 @@ a {
   text-transform: uppercase;
   color: var(--gold-2);
 }
-.eyebrow::before {
-  content: '';
-  width: 26px;
-  height: 1px;
-  background: var(--gold-3);
-}
-
 h1,
 h2,
 h3 {

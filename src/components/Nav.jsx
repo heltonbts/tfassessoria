@@ -18,10 +18,6 @@ export default function Nav() {
       <div className="container nav-inner">
         <a href="#topo" className="nav-brand" aria-label={BUSINESS.name}>
           <img src={logo} alt="TF Assessoria & Finanças" />
-          <span className="bn">
-            TF Assessoria
-            <small>& Finanças</small>
-          </span>
         </a>
 
         <div className="nav-links">
